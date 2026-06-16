@@ -5,12 +5,128 @@
 </head>
 <body>
     <h1>Welcome!</h1>
-     <h6>Welcome!</h6>
-    <p>This is a simple HTML page.</p>
-    <ol>
-        <li> Fruits & nuts</li>
-        <li> Cool Drinks</li>
-    </ol>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            color: #003366;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>ABC Organization</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to ABC Organization</h1>
+    <p>Delivering excellence through innovation and professionalism.</p>
+    <a href="#" class="btn">Learn More</a>
+</section>
+
+<section class="services">
+    <div class="card">
+        <h3>Our Mission</h3>
+        <p>Committed to providing high-quality services with integrity.</p>
+    </div>
+
+    <div class="card">
+        <h3>Our Vision</h3>
+        <p>To be a trusted leader in our field through innovation.</p>
+    </div>
+
+    <div class="card">
+        <h3>Contact Us</h3>
+        <p>Email: info@example.com<br>Phone: +91 98765 43210</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 ABC Organization. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
     <button onclick="alert('Hello World!')">Click Me</button>
 </body>
 </html>
